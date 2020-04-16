@@ -1,0 +1,17 @@
+{
+  "name": "proposal-error-stacktrace-testcases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-test": "eshost -g d8,jsshell,jsc",
+    "postinstall": "esvu install v8 && esvu install jsc && esvu install jsshell"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eshost-cli": "^7.3.0",
+    "esvu": "^1.2.1"
+  }
+}
